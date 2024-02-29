@@ -1,0 +1,37 @@
+.collection {
+    .container {
+        display: flex;
+    }
+
+    &__img {
+        margin-left: 125px;
+    }
+
+    &__heading {
+        margin: 0;
+        padding: 0;
+        color: #333D4B;
+        font-family: "Fraunces";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 48px; 
+        padding-top: 90px;
+        padding-left: 125px;
+    }
+
+    &__text {
+        margin: 0;
+        padding: 0;
+        color: #333D4B;
+        font-family: "Barlow";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; 
+        opacity: 0.8;
+        width: 664px;
+        padding-top: 32px;
+        padding-left: 125px;
+    }
+}

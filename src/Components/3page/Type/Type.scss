@@ -1,0 +1,83 @@
+.type {
+    margin-top: 168px;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: 28px;
+    }
+
+    &__text {
+        margin: 0;
+        padding: 0;
+        font-family: 'Fraunces';
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #0E8784;
+        opacity: 0.4;
+    }
+
+    &__span {
+        margin: 0;
+        padding: 0;
+        color: #83888F;
+        font-family: "Fraunces";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px; 
+        opacity: 0.8;
+        cursor: pointer;
+
+        &:hover {
+            color: #333D4B;
+        }
+    }
+
+    &__textt {
+        margin: 0;
+        padding: 0;
+        font-family: 'Fraunces';
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #83888F;
+        opacity: 0.7;
+    }
+
+    &__texttt {
+        margin: 0;
+        padding: 0;
+        font-family: 'Fraunces';
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #83888F;
+    }
+
+    &__spann {
+        margin: 0;
+        padding: 0;
+        color: #333D4B;
+        font-family: "Fraunces";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px; 
+        opacity: 0.8;
+    }
+
+    &__line {
+        width: 255px;
+        height: 1px;
+        background-color: #83888F;
+        margin-left: 0px;
+    }
+}

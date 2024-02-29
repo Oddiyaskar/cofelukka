@@ -1,0 +1,102 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  scroll-behavior: smooth;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0px;
+  padding: 0px;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans" "Arial" "sans serif";
+  font-size: 18px;
+  line-height: normal;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+.container {
+  width: 1320px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./Components/Fonts/barlow-v12-latin_latin-ext-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./Components/Fonts/barlow-v12-latin_latin-ext-700.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  src: url('./Components/Fonts/fraunces-v31-latin_latin-ext-900.woff2') format('woff2');
+}
+
+.app {
+  &__light {
+    background-color: #fff;
+    color: black;
+  }
+
+  &__dark {
+    background-color: #000000;
+    color: #fff;
+  }
+
+  &__btn {
+    color: #FEFCF7;
+    background-color: #2C343E;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin: 10px 10px;
+    font-family: 'Barlow';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    cursor: pointer;
+  }
+}

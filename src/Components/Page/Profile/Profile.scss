@@ -1,0 +1,48 @@
+.profile {
+    width: 400px;
+    height: 350px;
+    margin-left: 450px;
+    background-color: #2C343E;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px;
+
+    &__heading {
+        margin: 0;
+        padding: 0;
+        color: #FEFCF7;
+        font-family: 'Fraunces';
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 36px;
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+
+    &__input {
+        width: 350px;
+        margin-top: 20px;
+        padding: 20px 10px;
+        border-radius: 10px;
+        border: none;
+        margin-bottom: 10px;
+    }
+
+    &__btn {
+        margin-top: 20px;
+        padding: 16px 35px;
+        border: none;
+        font-family: 'Fraunces';
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 25px;
+        color: #FEFCF7;
+        background-color: #0E8784;
+        border-radius: 10px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #66D2CF;
+        }
+    }
+}
