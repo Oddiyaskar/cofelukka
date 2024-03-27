@@ -141,7 +141,7 @@ const Language = {
                 btn: "Mening rejamni yarating!",
             },
         },
-        home: "Kofega Xush kelibsiz",
+        Home: "Kofega Xush kelibsiz",
         profile: {
             heading: "Ro'yxatdan o'ting",
             btn: "Bosing",

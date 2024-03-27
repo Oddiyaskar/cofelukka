@@ -11,7 +11,7 @@ function Home() {
             <div className="container">
                 <div className="home">
                     <h2 className="home__heading">
-                        {Language[lang].home}
+                        {Language[lang].Home}
                     </h2>
                 </div>
             </div>
