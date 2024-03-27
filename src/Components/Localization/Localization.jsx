@@ -141,7 +141,7 @@ const Language = {
                 btn: "Mening rejamni yarating!",
             },
         },
-        home: "Kofega Xush kelibsiz",
+        Home: "Kofega Xush kelibsiz",
         profile: {
             heading: "Ro'yxatdan o'ting",
             btn: "Bosing",
@@ -291,7 +291,7 @@ const Language = {
                 btn: "Create my plan!",
             },
         },
-        home: "Welcome to Coffee",
+        Home: "Welcome to Coffee",
         Profile: {
             heading: "Sign up",
             btn: "Click",
@@ -440,7 +440,7 @@ const Language = {
                 btn: "Создай мой план!",
             },
         },
-        home: "Добро пожаловать в кофе",
+        Home: "Добро пожаловать в кофе",
         Profile: {
             heading: "Зарегистрироваться",
             btn: "Нажмите",
